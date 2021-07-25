@@ -1,0 +1,153 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url("index.png");
+    background-size: cover;
+
+}
+
+h1 {
+    color:white;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 15px;
+    position: fixed;
+}
+
+h2 {
+    color:white;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 13px;
+
+}
+
+#marginTop {
+    margin-top: 10%;
+}
+
+#marginTop2 {
+    width: 800px;
+    margin-top: 5%;
+    margin-left: 20%;
+    position: fixed;
+}
+
+#marginTop3 {
+    margin-top: 10%;
+}
+
+.footer {
+    position: fixed;
+    left: 3%;
+    bottom: 0;
+    top: 87%;
+    width: 100%;
+    color: white;
+    text-align: left;
+    z-index: 9999;
+  }
+
+
+
+a {
+    color: white;
+text-decoration: none;} 
+
+a:hover { color:white;
+    text-decoration: none;
+    opacity: 0.5; 
+ }
+.nav a { color:white; };
+
+
+.footer {
+    position: fixed;
+    left: 3%;
+    bottom: 0;
+    top: 90%;
+    width: 100%;
+    color: white;
+    text-align: left;
+    z-index: 9999;
+  }
+
+
+
+@media screen and (min-width: 1000px) {
+
+    h1 {
+        color:white;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        color:white;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        font-size: 25px;
+    }
+
+    #marginTop2 {
+        width: 1200px;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: fixed;
+    }
+
+    .footer {
+        position: fixed;
+        left: 3%;
+        bottom: 0;
+        top: 90%;
+        width: 100%;
+        color: white;
+        text-align: left;
+        z-index: 9999;
+      }
+    
+}
+
+@media screen and (min-width: 1500px) {
+
+    h1 {
+        color:white;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        font-size: 35px;
+    }
+
+    .footer {
+        position: fixed;
+        left: 3%;
+        bottom: 0;
+        top: 93%;
+        width: 100%;
+        color: white;
+        text-align: left;
+        z-index: 9999;
+      }
+}
+
+
+
+@media screen and (min-width: 1800px) {
+
+    h1 {
+        color:white;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        font-size: 45px;
+    }
+
+    #marginTop2 {
+        width: 2000px;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: fixed;
+    }
+    
+}
